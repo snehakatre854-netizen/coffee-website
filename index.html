@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Aroma - Premium Coffee</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#faf7f2] text-gray-900">
+
+  <!-- NAVBAR -->
+  <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-extrabold tracking-tight text-[#6c4a3d]">Café Aroma</h1>
+
+      <nav class="hidden md:flex gap-8 text-lg font-medium">
+        <a href="#" class="hover:text-[#6c4a3d] transition">Home</a>
+        <a href="#menu" class="hover:text-[#6c4a3d] transition">Menu</a>
+        <a href="#about" class="hover:text-[#6c4a3d] transition">About</a>
+        <a href="#contact" class="hover:text-[#6c4a3d] transition">Contact</a>
+      </nav>
+
+      <button class="md:hidden text-2xl">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
+        Discover the <span class="text-[#6c4a3d]">Perfect Brew</span> Every Day
+      </h2>
+      <p class="mt-4 text-lg text-gray-700">
+        A sophisticated blend of aroma, freshness & rich flavors — crafted to elevate your coffee experience.
+      </p>
+
+      <button class="mt-6 px-8 py-3 bg-[#6c4a3d] text-white font-medium rounded-xl shadow-md hover:bg-[#5a3e32] transition">
+        Explore Menu
+      </button>
+    </div>
+
+    <img src="cafe.jpg" class="rounded-2xl shadow-xl w-full" />
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Our Signature Menu</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Cappuccino</h3>
+          <p class="text-gray-600 mb-2">Rich, creamy & bold flavored.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹120</p>
+        </div>
+
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Mocha</h3>
+          <p class="text-gray-600 mb-2">Chocolatey with a classic twist.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹150</p>
+        </div>
+
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Cold Coffee</h3>
+          <p class="text-gray-600 mb-2">Perfectly chilled & refreshing.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹130</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- ABOUT SECTION -->
+<section id="about" class="max-w-6xl mx-auto px-6 py-20">
+
+  <div class="grid md:grid-cols-2 gap-14 items-start">
+
+    
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+        About Us
+      </h2>
+
+      <p class="text-xl md:text-2xl text-gray-800 leading-relaxed">
+        At Cafe Aroma, we bring you a rich and premium coffee experience
+        crafted from handpicked beans roasted to perfection. Every cup we
+        serve carries the warmth, aroma, and passion of our expert baristas
+        who blend creativity with quality. Whether you're here to relax,
+        work, or simply enjoy a comforting drink, Cafe Aroma promises a cozy
+        and luxurious environment that makes every sip truly memorable.
+      </p>
+    </div>
+
+    <!-- IMAGE -->
+    <img 
+      src="Coffee.jpg" 
+      class="rounded-xl shadow-xl w-72 md:w-96 mx-auto" 
+      alt="Coffee"
+    />
+
+  </div>
+</section>
+
+
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="bg-[#faf4ee] py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-10">Contact Us</h2>
+
+      <form class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-xl">
+        <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border rounded-lg" />
+        <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded-lg" />
+        <textarea placeholder="Your Message" class="w-full p-3 mb-4 h-32 border rounded-lg"></textarea>
+
+        <button class="w-full py-3 bg-[#6c4a3d] text-white font-medium rounded-xl hover:bg-[#5a3e32] transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-6 text-center bg-[#eaddd1] text-gray-700 font-medium">
+    © 2025 Café Aroma — Premium Artisan Coffee
+  </footer>
+
+</body>
+</html>
