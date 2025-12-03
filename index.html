@@ -205,3 +205,212 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Aroma - Premium Coffee</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#faf7f2] text-gray-900">
+
+  <!-- NAVBAR -->
+  <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-extrabold tracking-tight text-[#6c4a3d]">Cafe Aroma</h1>
+
+      <nav class="hidden md:flex gap-8 text-lg font-medium">
+        <a href="#" class="hover:text-[#6c4a3d] transition">Home</a>
+        <a href="#menu" class="hover:text-[#6c4a3d] transition">Menu</a>
+        <a href="#about" class="hover:text-[#6c4a3d] transition">About</a>
+        <a href="#contact" class="hover:text-[#6c4a3d] transition">Contact</a>
+      </nav>
+
+      <button class="md:hidden text-2xl">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
+        Discover the <span class="text-[#6c4a3d]">Perfect Brew</span> Every Day
+      </h2>
+      <p class="mt-4 text-lg text-gray-700">
+        A sophisticated blend of aroma, freshness & rich flavors — crafted to elevate your coffee experience.
+      </p>
+
+      <button class="mt-6 px-8 py-3 bg-[#6c4a3d] text-white font-medium rounded-xl shadow-md hover:bg-[#5a3e32] transition">
+        Explore Menu
+      </button>
+    </div>
+
+    <img src="cafe.jpg" class="rounded-2xl shadow-xl w-full" />
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Our Signature Menu</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Cappuccino</h3>
+          <p class="text-gray-600 mb-2">Rich, creamy & bold flavored.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹120</p>
+        </div>
+
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Mocha</h3>
+          <p class="text-gray-600 mb-2">Chocolatey with a classic twist.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹150</p>
+        </div>
+
+        <div class="bg-[#faf4ee] p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-bold mb-2">Cold Coffee</h3>
+          <p class="text-gray-600 mb-2">Perfectly chilled & refreshing.</p>
+          <p class="text-xl font-semibold text-[#6c4a3d]">₹130</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- ABOUT SECTION -->
+<section id="about" class="max-w-6xl mx-auto px-6 py-20">
+
+  <div class="grid md:grid-cols-2 gap-14 items-start">
+
+    
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+        About Us
+      </h2>
+
+      <p class="text-xl md:text-2xl text-gray-800 leading-relaxed">
+        At Cafe Aroma, we bring you a rich and premium coffee experience
+        crafted from handpicked beans roasted to perfection. Every cup we
+        serve carries the warmth, aroma, and passion of our expert baristas
+        who blend creativity with quality. Whether you're here to relax,
+        work, or simply enjoy a comforting drink, Cafe Aroma promises a cozy
+        and luxurious environment that makes every sip truly memorable.
+      </p>
+    </div>
+
+    <!-- IMAGE -->
+    <img 
+      src="Coffee.jpg" 
+      class="rounded-xl shadow-xl w-72 md:w-96 mx-auto" 
+      alt="Coffee"
+    />
+
+  </div>
+</section>
+
+
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="bg-[#faf4ee] py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-10">Contact Us</h2>
+
+      <form class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-xl">
+        <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border rounded-lg" />
+        <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded-lg" />
+        <textarea placeholder="Your Message" class="w-full p-3 mb-4 h-32 border rounded-lg"></textarea>
+
+        <button class="w-full py-3 bg-[#6c4a3d] text-white font-medium rounded-xl hover:bg-[#5a3e32] transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== Footer (Cafe Theme) ========== -->
+<footer class="mt-20 bg-[#6C4A3D] text-[#f5e9d6]"> <!-- Dark Coffee Brown -->
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Brand -->
+      <div>
+        <h4 class="font-semibold text-[#fff7e8] text-xl">Ravessa</h4>
+        <p class="mt-2 text-sm text-[#e7d9c4] max-w-sm">
+          Elegant handcrafted jewellery made with timeless craftsmanship and premium detailing.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h5 class="font-semibold text-[#fff7e8]">Quick Links</h5>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#home" class="hover:text-white transition">Home</a></li>
+          <li><a href="#services" class="hover:text-white transition">Services</a></li>
+          <li><a href="#collections" class="hover:text-white transition">Collections</a></li>
+          <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact + Social -->
+      <div>
+        <h5 class="font-semibold text-[#fff7e8]">Contact</h5>
+        <p class="mt-2 text-sm text-[#e7d9c4]">hello@coffee.example</p>
+
+        <!-- Social Icons -->
+        <div class="mt-4 flex gap-3">
+
+          <!-- Icon Wrapper Style -->
+          <style>
+            .coffee-icon { 
+              color: #f5e9d6; /* light cream icon */
+            }
+          </style>
+
+          <!-- Instagram -->
+          <a href="#" class="p-2 bg-[#4a3b3b] rounded-md hover:bg-[#5a4747] transition" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 coffee-icon" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7A2.5 2.5 0 1 1 14.5 12 2.5 2.5 0 0 1 12 14.5zm4.75-8.75a1.25 1.25 0 1 1-1.25-1.25 1.25 1.25 0 0 1 1.25 1.25z"/>
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="#" class="p-2 bg-[#4a3b3b] rounded-md hover:bg-[#5a4747] transition" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 coffee-icon" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M4.98 3.5a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.86-2.06 3.83-2.06 4.1 0 4.85 2.7 4.85 6.2V21h-4v-4.5c0-1.07-.02-2.45-1.5-2.45-1.5 0-1.73 1.17-1.73 2.38V21H10z"/>
+            </svg>
+          </a>
+
+          <!-- Twitter -->
+          <a href="#" class="p-2 bg-[#4a3b3b] rounded-md hover:bg-[#5a4747] transition" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 coffee-icon" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.23 5.924c-.793.352-1.644.59-2.538.697a4.415 4.415 0 0 0 1.937-2.431 8.794 8.794 0 0 1-2.8 1.073 4.396 4.396 0 0 0-7.69 4.01A12.473 12.473 0 0 1 3.15 4.897a4.38 4.38 0 0 0 1.36 5.868 4.35 4.35 0 0 1-1.99-.55v.056a4.398 4.398 0 0 0 3.526 4.309 4.4 4.4 0 0 1-1.982.075 4.405 4.405 0 0 0 4.111 3.057A8.824 8.824 0 0 1 2 19.54a12.45 12.45 0 0 0 6.76 1.98c8.1 0 12.53-6.71 12.53-12.53 0-.19-.004-.38-.013-.57a8.935 8.935 0 0 0 2.2-2.296z"/>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="mt-8 border-t border-[#4a3b3b] pt-6 text-center text-sm text-[#e7d9c4]">
+      &copy; <span id="year"></span>  2025 Cafe Aroma — Premium Artisan Coffee
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
+
